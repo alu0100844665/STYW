@@ -137,3 +137,5 @@ module.exports = {
 - **DATABASE_USER:** _your_user_
 - **DATABASE_PASSWORD:** _your_password_
 - **DATABASE_CONNECTION_OPTIONS:** ssl=true&replicaSet=globaldb
+
+##### Im going to deploy this app
