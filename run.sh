@@ -7,7 +7,24 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Load deployment environment
-. /root/.deployment.env
+#. /root/.deployment.env
+#
+# Deployment environment variables
+#
+
+export DATA_FOLDER="/bitnami/app"
+export APP_FOLDER="/app"
+export DATABASE_USER="myTester"
+export DATABASE_NAME="test"
+export DATABASE_PASSWORD="usuario7"
+export DATABASE_HOST="172.16.121.3"
+export DATABASE_PORT="27017"
+#export DATABASE_CONNECTION_OPTIONS="app_connection_options"
+export BACKEND_PORT="3000"
+export PATH="/opt/bitnami/nami/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bitnami/node/bin:/opt/bitnami/python/bin:/opt/bitnami/nami/bin"
+
+
+
 
 case "$1" in
   start)
