@@ -21,7 +21,8 @@ export DATABASE_HOST="172.16.121.3"
 export DATABASE_PORT="27017"
 #export DATABASE_CONNECTION_OPTIONS="app_connection_options"
 export BACKEND_PORT="3000"
-export PATH="/opt/bitnami/nami/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bitnami/node/bin:/opt/bitnami/python/bin:/opt/bitnami/nami/bin"
+#export PATH="/opt/bitnami/nami/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bitnami/node/bin:/opt/bitnami/python/bin:/opt/bitnami/nami/bin"
+export PATH="/home/usuario/mnt/sharedfolder_client"
 
 
 
